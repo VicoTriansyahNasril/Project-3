@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:burlywood;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.kecil{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.tulisanputih{
+    color: white;
+}
+
+
+.kecil.kuning{
+    background-color: yellow;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+
+}
+
+.kecil.hijau{
+    background-color: green;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.kecil.merah{
+    background-color: red;
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+}
+
+.kecil.birutua{
+    background-color: darkblue;
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 3;
+}
+
+.kecil.hitam{
+    background-color: black;
+    grid-column: 2 / span 3;
+    grid-row: 1;
+}
+
+.kecil.coklat{
+    background-color: brown;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.kecil.putih{
+    background-color: white;
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+}
+
+.kecil.abu{
+    background-color: grey;
+    grid-column: 2 / span 2;
+    grid-row: 4 / span 2;
+}
+
+.kecil.orange{
+    background-color: orange;
+    grid-column: 2 / span 2;
+   
+}
+
+.kecil.pink{
+    background-color: pink;
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 2;
+}
+
+.kecil.biru{
+    background-color: blue;
+    grid-column: 4 / span 1;
+    grid-row: 2 / span 1;
+}
+
+.kecil.ungu{
+    background-color: purple;
+    grid-column: 4 / span 1;
+    grid-row: 3/ span 4;
+}
