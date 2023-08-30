@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.content2{
+    margin-top: 20px;
+}
+
+.baris {
+    display: flex;
+}
+
+.ukuran{
+    font-size: 29px;
+}
+
+.ukuranIsi{
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.ukuranIsi2{
+    font-size: 13px;
+}
+
+.jarak{
+    margin-bottom: 16px;
+}
+
+.jarak2{
+    margin-top: 4px;
+}
+
+.panjangText {
+    width: 40%;
+}
+
+.followText {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 12px;
+    background: #1F2937;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.6em;
+    width: 50px;
+    height: 40px;
+  }
+
+  .UnfollowText {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 12px;
+    background: red;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.6em;
+    width: 60px;
+    height: 40px;
+  }
+
+.Left{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+.Right{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-right: 50px;
+    margin-top: 40px;
+}
